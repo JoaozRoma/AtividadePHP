@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #B0A1D1;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.logo{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.nav-links :hover{
+    color:white
+}
+
+body{
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    color:white;
+    font-family: 'Allerta Stencil', sans-serif;
+    line-height: 100px;
+    font-size: 25px;
+}
+
+.subtitulo{
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+    font-family: 'Allerta Stencil', sans-serif;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.parag{
+    color:white;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.informes{
+    color:white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+}
